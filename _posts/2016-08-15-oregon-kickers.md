@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Oregon Kickers: A Resurgence"
+date:   2016-08-15 12:00:00 -0700
+image: fieldgoal.jpg
+categories: Ducks
+---

@@ -1,0 +1,60 @@
+- name: Jack Christy
+  year: Junior
+  title: President
+  hometown: Palo Alto, CA
+  photo: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARkAAAAJDFhMmQ3N2IxLTNiYmYtNGUyOC1hY2YxLTY2MGQyYWEyMjBhNw.jpg
+  email: jchristy@uoregon.edu
+  twitter: JackWChristy
+  facebook: jack.christy3
+  github: j-christy
+  linkedin: jackchristy
+  bio: Jack is the Founder and President of UOSA. He is a Senior Economics major.
+
+- name: Connor Williamson
+  year: Redshirt Senior
+  title: VP - BBall
+  hometown: Washington, D.C.
+  photo: https://pbs.twimg.com/profile_images/700531995483381760/ZHY9d49U.jpg
+  email: willia16@uoregon.edu
+  twitter: conconwillia
+  facebook:
+  github:
+  linkedin: connor-williamson-3147b764
+  bio: I
+
+- name: Josh DeMarco
+  year: Junior
+  title: VP - Membership
+  hometown: Portland, OR
+  photo: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAgqAAAAJDBlZmZkZDVkLTZmOWQtNDYwMy1iYjgyLTJlOTg2NDlkN2U3Nw.jpg
+  email: jdemarco@uoregon.edu
+  twitter:
+  facebook:
+  github:
+  linkedin: josh-demarco-007894b0
+  hometown: Portland, OR
+  bio: just
+
+- name: Grant Fisher
+  year: Junior
+  title: VP - Social
+  hometown: Moreland Hills, OH
+  photo: https://media.licdn.com/media/AAEAAQAAAAAAAAQrAAAAJGRlMjQ1NDhkLTIwY2UtNGVjZi1hZDM0LTBlMGUwMGU5MWJhZQ.jpg
+  email:
+  twitter: grant_m_fisher
+  facebook: grant.fisher.777
+  github:
+  linkedin: grant-fisher-310158116
+  bio: met
+
+- name: Cooper Rhodes
+  year: Junior
+  title:
+  hometown: Las Vegas, NV
+  photo:
+  email: crhodes@uoregon.edu
+  twitter: CooperRhodes
+  facebook:
+  github:
+  linkedin:  cooperrhodes
+  bio: you

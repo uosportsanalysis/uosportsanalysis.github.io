@@ -1,0 +1,36 @@
+.members {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.member-img {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 50%;
+}
+.member {
+  width: 200px;
+  text-align: center;
+  //margin-left: 50px;
+  //margin-right: 50px;
+  margin-bottom: 1.5rem;
+}
+.member > h2 {
+  margin: 0;
+}
+.member-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+.member-icons > li {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.member-icons > li > a {
+  text-decoration: none;
+  color: #007935;
+}
