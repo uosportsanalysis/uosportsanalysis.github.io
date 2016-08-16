@@ -186,7 +186,15 @@
     }
 }
 
+.post-auth-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5px;
+}
 .post-meta {
+    display: block;
     font-size: $small-font-size;
     color: $grey-color;
 }

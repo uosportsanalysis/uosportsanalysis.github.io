@@ -18,7 +18,7 @@ layout: default
         </h2>
 
         {% for contributor in site.data.contributors %}
-          {% if contributor.name == post.author %}<img src="{{ contributor.photo }}" height=40px width=40px>{% endif %}
+          {% if contributor.name == post.author %}<img src="{{ contributor.photo }}" class="post-auth-img">{% endif %}
         {% endfor %}
 
         <span class="post-meta"><i class="fa fa-user"></i> {{ post.author }}</span>
