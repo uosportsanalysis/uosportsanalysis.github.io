@@ -5,5 +5,5 @@ description: a decade of utter ineptitude for the Ducks kickers has come to and 
 author: Jack Christy
 date:   2016-08-15 12:00:00 -0700
 image: ./images/fieldgoal.jpg
-categories: Ducks
+
 ---
