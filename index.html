@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -16,6 +16,7 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <h3>{{ post.description }}</h3>
 
         {% for contributor in site.data.contributors %}
           {% if contributor.name == post.author %}<a href="{{ site.baseurl }}/about/"><img src="{{ contributor.photo }}" alt="photo of {{ contributor.name }}"class="post-auth-img"></a>{% endif %}
