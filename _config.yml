@@ -17,6 +17,11 @@ url: "https://uosportsanalysis.github.io" # the base hostname & protocol for you
 twitter:
   username:  jackwchristy
 
+# Collections
+collections:
+  members:
+    output: true
+
 # Build settings
 markdown: kramdown
 

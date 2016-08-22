@@ -7,36 +7,42 @@ permalink: /about/
 <hr>
 <h1 style="text-align: center">The Team</h1>
 <div class="members">
-    {% for contributor in site.data.contributors %}
-     <div class="member">
+    {% for member in site.members %}
+     <a href="{{ member.url }}">
+       <div class="member">
 
-       {% if contributor.photo %}
-       <img src="{{ contributor.photo }}"class="member-img"></img>
+       {% if member.photo %}
+       <img src="{{ member.photo }}"class="member-img"></img>
        {% else %}
        <img src="http://valleyosteopathy.com.au/wp-content/uploads/2013/11/facebook-default-no-profile-pic1.jpg"class="member-img"></img>
        {% endif %}
 
-     <h2>{{ contributor.name }}</h2>
-    <span class="position">{{ contributor.title }}</span>
-       <p>{{ contributor.bio }}</p>
+     <h2>{{ member.name | replace: " ", "<br>"}}</h2>
+
+    <span class="position">{{ member.title }}</span>
        <ul class="member-icons">
 
-         {% if contributor.twitter %}
+         {% if member.twitter %}
          <li><a href="https://twitter.com/{{ contributor.twitter }}"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
          {% endif %}
 
-         {% if contributor.linkedin %}
+         {% if member.linkedin %}
          <li><a href="https://linkedin.com/in/{{ contributor.linkedin }}"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
          {% endif %}
 
-         {% if contributor.facebook %}
+         {% if member.facebook %}
          <li><a href="https://facebook.com/{{ contributor.facebook }}"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
          {% endif %}
 
-         {% if contributor.github %}
+         {% if member.github %}
          <li><i class="fa fa-github fa-2x" aria-hidden="true"></i></li>
+         {% endif %}
+
+         {% if member.email %}
+         <li><a href="{{ member.email | prepend: "mailto:"}}"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
          {% endif %}
        </ul>
      </div> <!-- end member -->
+   </a>
      {% endfor %}
      </div> <!--end members -->
