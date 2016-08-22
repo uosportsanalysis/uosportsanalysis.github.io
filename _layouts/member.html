@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div>
+  <h3>{{ page.name }}</h3>
+  <p>{{ page.title }}</p>
+  <p>{{ page.class | prepend: "Class: "}}</p>
+  <p>{{ page.hometown | prepend: "Hometown: "}}</p>
+  <p>{{ page.content }}</p>
+  <h3>{{ page.name | truncatewords: 1 | remove: "..." | prepend: "Articles by "}}</h3>
+  {% for post in site.posts %}
+    {% if post.author == page.name %}
+      <p>{{ post.title }}</p>
+    {% endif %}
+  {% endfor %}
+</div>
