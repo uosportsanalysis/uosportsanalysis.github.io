@@ -2,6 +2,7 @@
 layout: abt
 title: About
 permalink: /about/
+navigation_weight: 1
 ---
 <h2 style="text-align: center">UOSA is a student organization at the University of Oregon. We write about sports. It's pretty dope</h2>
 <hr>
@@ -19,29 +20,7 @@ permalink: /about/
 
      <h2>{{ member.name | replace: " ", "<br>"}}</h2>
 
-    <span class="position">{{ member.title }}</span>
-       <ul class="member-icons">
-
-         {% if member.twitter %}
-         <li><a href="https://twitter.com/{{ contributor.twitter }}"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-         {% endif %}
-
-         {% if member.linkedin %}
-         <li><a href="https://linkedin.com/in/{{ contributor.linkedin }}"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-         {% endif %}
-
-         {% if member.facebook %}
-         <li><a href="https://facebook.com/{{ contributor.facebook }}"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-         {% endif %}
-
-         {% if member.github %}
-         <li><i class="fa fa-github fa-2x" aria-hidden="true"></i></li>
-         {% endif %}
-
-         {% if member.email %}
-         <li><a href="{{ member.email | prepend: "mailto:"}}"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
-         {% endif %}
-       </ul>
+    <span class="position">{{ member.position }}</span>
      </div> <!-- end member -->
    </a>
      {% endfor %}

@@ -3,14 +3,36 @@ layout: default
 ---
 <div>
   <h3>{{ page.name }}</h3>
-  <p>{{ page.title }}</p>
+  <ul class="member-icons">
+
+    {% if page.twitter %}
+    <li><a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+    {% endif %}
+
+    {% if page.linkedin %}
+    <li><a href="https://linkedin.com/in/{{ page.linkedin }}"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+    {% endif %}
+
+    {% if page.facebook %}
+    <li><a href="https://facebook.com/{{ page.facebook }}"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+    {% endif %}
+
+    {% if page.github %}
+    <li><i class="fa fa-github fa-2x" aria-hidden="true"></i></li>
+    {% endif %}
+
+    {% if page.email %}
+    <li><a href="{{ page.email | prepend: "mailto:"}}"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+    {% endif %}
+  </ul>
+  <p>{{ page.position }}</p>
   <p>{{ page.class | prepend: "Class: "}}</p>
   <p>{{ page.hometown | prepend: "Hometown: "}}</p>
   <p>{{ page.content }}</p>
   <h3>{{ page.name | truncatewords: 1 | remove: "..." | prepend: "Articles by "}}</h3>
   {% for post in site.posts %}
     {% if post.author == page.name %}
-      <p>{{ post.title }}</p>
+      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
     {% endif %}
   {% endfor %}
 </div>

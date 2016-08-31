@@ -4,7 +4,7 @@ name: Jack Christy
 class: Junior
 major: Economics
 hometown: Palo Alto, CA
-title: El Jefe
+position: El Jefe
 email: jchristy@uoregon.edu
 twitter: JackWChristy
 linkedin: jackchristy

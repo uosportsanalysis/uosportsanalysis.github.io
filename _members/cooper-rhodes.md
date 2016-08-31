@@ -4,7 +4,7 @@ name: Cooper Rhodes
 class: Senior
 major: Business
 hometown: Las Vegas, NV
-title: VP
+position: VP
 email: crhodes@uoregon.edu
 twitter: CooperRhodes
 linkedin: cooperrhodes
