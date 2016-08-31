@@ -5,7 +5,9 @@ description: Why is this actually a thing?
 author: Jack Christy
 date:   2016-08-15 17:00:00 -0700
 image: ./images/duck-uniform.jpg
-
+tags:
+  - Ducks
+  - NCAAF
 ---
 For this article, i'm going to want to look into these articles/sites, and potentially more:
 

@@ -19,10 +19,10 @@ layout: default
         <h3>{{ post.description }}</h3>
 
         {% for contributor in site.data.contributors %}
-          {% if contributor.name == post.author %}<a href="{{ site.baseurl }}/about/"><img src="{{ contributor.photo }}" alt="photo of {{ contributor.name }}"class="post-auth-img"></a>{% endif %}
+          {% if contributor.name == post.author %}<a href="{{ site.baseurl }}/members/{{ post.author | downcase | replace: " ", "-" | append: ".html" }}"><img src="{{ contributor.photo }}" alt="photo of {{ contributor.name }}"class="post-auth-img"></a>{% endif %}
         {% endfor %}
 
-        <span class="post-meta"><a href="{{ about.permalink | prepend: site.baseurl }}"><i class="fa fa-user"></i> {{ post.author }}</a></span>
+        <span class="post-meta"><a href="{{ site.baseurl }}/members/{{ post.author | downcase | replace: " ", "-" | append: ".html" }}"><i class="fa fa-user"></i> {{ post.author }}</a></span>
         <span class="post-meta"><i class="fa fa-clock-o"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
 
       </li>
