@@ -5,6 +5,9 @@ author: Connor Williamson
 description: a breakdown of one of the wackiest deals of NBA Free Agency 2016.
 date:   2016-08-10 17:10:55 -0700
 image: ./images/krabs.jpg
+tags:
+  - Blazers
+  - NBA
 ---
 In an NBA offseason filled with exclamations of, “He got what?” and “Well, I guess I should have just been an NBA player,” one of the biggest sources of sticker shock was reserve Portland swingman Allen Crabbe. The first shockwave was felt when Brooklyn presented Crabbe a four-year, $75 million offer sheet, with the aftershocks continuing three days later when the Blazers matched it. With Portland committing some serious cap space to several players this summer, Crabbe’s deal perhaps raised the most eyebrows. In assessing whether or not Portland got good value, factors like the rest of the Blazers’ roster, this year’s free agent market, and Portland’s place in the organizational life cycle, just to name a few, arise. Oh, and of course the abilities of Crabbe himself. Before discussing this from the Blazers’ point of view, however, let’s examine why Brooklyn concocted this contract in the first place.
 

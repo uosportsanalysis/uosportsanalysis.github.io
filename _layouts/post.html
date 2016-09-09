@@ -14,9 +14,9 @@ disqus: true
     {{ content }}
   </div>
   <h3>Tags:</h3>
-  <ul class="tag-list">
-    {% for tag in page.tags %}<li class="tag"><a href="#" class="tag-a">{{ tag }}</a></li>{% endfor %}
-  </ul>
+
+    {% for tag in page.tags %}<a href="#" class="tag-a">{{ tag }}</a>{% endfor %}
+
   <div class="author-bio">
     <h3>{{ page.author | truncatewords: 1 | remove: "..." | prepend: "About " }}</h3>
 

@@ -42,19 +42,9 @@
         }
     }
 }
-/*** note to self: FIX THIS TRASH CODE for the tags and their hover properties ***/
-.tag-list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-}
-.tag {
-  border: 3px solid $brand-color;
-  border-radius: 10px;
-  margin-right: 5px;
-  background-color: $brand-color;
-}
+
 .tag-a {
+  border: 3px solid $brand-color;
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 5px;
@@ -63,9 +53,13 @@
   border-radius: 8px;
   background-color: white;
   color: $brand-color;
+  margin-right: .5rem;
+
+  transition: background-color 0.4s ease;
+  transition: color 0.4s ease;
 }
 .tag-a:hover {
-  background: $brand-color;
+  background-color: $brand-color;
   color: white;
   text-decoration: none;
 }
