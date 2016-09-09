@@ -13,11 +13,26 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
+    > .post {
         margin-bottom: $spacing-unit;
+        //background-color: #263d36;
+        background-img: url("http://static3.businessinsider.com/image/54afe793eab8ea880e352a0c-1200/oregon-ducks.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        > h2{
+          margin: 0 auto;
+        }
+        > h3 {
+          margin: 0 auto;
+        }
     }
 }
 
+.post-img {
+  width: 100%;
+  height: auto;
+}
 .post-auth-img {
   height: 40px;
   width: 40px;
